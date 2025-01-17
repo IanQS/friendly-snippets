@@ -10,12 +10,12 @@
         "description": "Ignore specific line diagnostic in pyright (ignore all is unsafe)"
     },
     "Multiline string": {
-        "prefix": "#",
-        "body": ["\"\"\"","$0", "\"\"\""],
+        "prefix": "qt",
+        "body": ["\"\"\"$0", "\"\"\""],
         "description": "Snippet to avoid autopair plugin annoyances when typing multiple \""
     },
     "One-line multiline string": {
-        "prefix": "qt",
+        "prefix": "##",
         "body": "\"\"\"$0\"\"\"",
         "description": "Snippet to avoid autopair plugin annoyances when typing multiple \""
     },
