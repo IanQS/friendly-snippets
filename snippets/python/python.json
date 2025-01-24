@@ -1,4 +1,14 @@
 {
+    "print(f-string)": {
+        "prefix": "pfstr",
+        "body": "print(f'$0')",
+        "description": "Print an f-string"
+    },
+    "f-string": {
+        "prefix": "fstr",
+        "body": "f'$0'",
+        "description": "Declare an f-string"
+    },
     "#!/usr/bin/env pythonX": {
         "prefix": "#env",
         "body": "#!/usr/bin/env python$0",
