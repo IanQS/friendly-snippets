@@ -25,8 +25,8 @@
         "description": "Snippet to avoid autopair plugin annoyances when typing multiple \""
     },
     "One-line multiline string": {
-        "prefix": "qt",
-        "body": "\"\"\"$0\"\"\"",
+        "prefix": "tqs",
+        "body": ["\"\"\"", "$0", "\"\"\""],
         "description": "Snippet to avoid autopair plugin annoyances when typing multiple \""
     },
     "self": {
