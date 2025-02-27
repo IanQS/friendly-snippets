@@ -1,8 +1,23 @@
 {
-    "PDB set trace": {
-        "prefix": "pdb",
-        "body": "__import__('pdb').set_trace()$0",
-        "description": "Code snippet for pdb debug"
+    "Logger Debug": {
+        "prefix": "ldebug",
+        "body": "logger.debug(f\"$0\")",
+        "description": "Logging Debug f-string"
+    },
+    "Logger Info": {
+        "prefix": "ldebug",
+        "body": "logger.debug(f\"$0\")",
+        "description": "Logging Info f-string"
+    },
+    "Logger Warning": {
+        "prefix": "lwarn",
+        "body": "logger.warning(f\"$0\")",
+        "description": "Logging Warning f-string"
+    },
+    "Logger Error": {
+        "prefix": "lerr",
+        "body": "logger.error(f\"$0\")",
+        "description": "Logging Error f-string"
     },
     "PDBP set trace": {
         "prefix": "pdbp",
