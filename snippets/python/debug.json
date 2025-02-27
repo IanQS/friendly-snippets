@@ -4,6 +4,11 @@
         "body": "__import__('pdb').set_trace()$0",
         "description": "Code snippet for pdb debug"
     },
+    "PDBP set trace": {
+        "prefix": "pdbp",
+        "body": "import pdbp;pdbp.set_trace()",
+        "description": "Code snippet for pdbp debug"
+    },
     "iPDB set trace": {
         "prefix": "ipdb",
         "body": "__import__('ipdb').set_trace()$0",
