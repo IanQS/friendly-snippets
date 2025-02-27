@@ -5,7 +5,7 @@
         "description": "Logging Debug f-string"
     },
     "Logger Info": {
-        "prefix": "ldebug",
+        "prefix": "linfo",
         "body": "logger.debug(f\"$0\")",
         "description": "Logging Info f-string"
     },
